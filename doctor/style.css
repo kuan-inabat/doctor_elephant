@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100%;
+    background-color: #f9f9f9; 
+    margin: 0;
+    font-family: 'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+header {
+    background-color: white;
+    padding: 7px;
+    margin-bottom: 30px;
+    box-shadow: 1px 2px 10px rgb(0 0 0 / 4%);
+}
+
+header h1 {
+    font-size: 19px;
+    font-family: 'Nunito Sans','Avenir Next','Segoe UI','Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #333;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+main {
+    width: 610px;
+    margin: 0 auto;
+}
+ 
+.logo_image {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.banner {
+    height: 200px ;
+    border-radius: 16px;
+    background-color: #D3EFFB;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 20%);
+}
+
+.banner span {
+    background-color: white;
+    border-radius: 16px;
+    font-size: 25px;
+    color: #12395b;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.about,
+.ingredients_toothpaste,
+.additional_information {
+    background-color: white;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: black;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 20%);
+}
+
+.ingredients_toothpaste {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    font-size: 22px;
+    color: #12395b;
+}
+
+.additional_information a {
+    color: #12395b; 
+    text-decoration: none; 
+    border-bottom: 1px dashed #12395b; 
+}
+
+.reaction-container {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #ad48a9, #29a0ce);
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 20%); 
+}
+
+.reaction-container .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px 20px 35px;
+}
+
+.reaction-container a {
+    width: 70px;
+    color: #ffcc4d; 
+    text-decoration: none;
+    text-align: center;
+}
+
+.more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.more h3 {
+    font-size: 22px;
+    color: #95a0b0;
+}
+
+.more_block {
+    display: flex;
+    background: linear-gradient(to bottom right, #f9a639, #fc6159, #733ed4); 
+    border-radius: 16px; 
+    padding: 20px 25px 0px 25px;
+    text-align: center; 
+    margin-bottom: 20px;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 20%);
+}
+
+.more_block_app {
+    margin-right: 25px;
+}
+
+.more_block_info {
+    align-self: center;
+}
+
+.more h4 {
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+.more_block_info p {
+    font-size: 14px; 
+    color: #ffffff; 
+    line-height: 1.5; 
+}
+
+.more_block_info_download img {
+    border-radius: 10px;
+}
+
+.more_links {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    border-bottom: 1px dashed #cbd6e7;
+    padding-bottom: 20px;
+}
+
+.more_links div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.more_links a {
+    color: #95a0b0; 
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #95a0b0; 
+    font-size: 14px; 
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+
+.footer_download img {
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.footer_download img:last-child {
+    margin-right: 0;
+}
+
+.footer_download a{
+    text-decoration: none;
+}
+
+
+footer p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+.footer_messenger {
+    display: flex;
+}
+
+.footer_messenger a{
+    text-decoration: none;
+}
+
+.footer_messenger div {
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+.footer_messenger_subscribe{
+    margin-right: 20px;
+}
+
+button {
+    color: #95a0b0;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 4px 10px;
+    font-size: 14px;
+    border: none;
+}
+
+.footer_subscribe span {
+    background-color: #009fc1;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.footer_subscribe_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
